@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Source", sans-serif;
+}
+
+body {
+  font-size: 1.4rem;
+  background-color: #eee;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 960px;
+  width: 100%;
+  overflow: hidden;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  font-family: "Source", sans-serif;
+  font-size: 1.4rem;
+}
+
+img[src=""] {
+  display: none;
+}
+
+.hello-world2 {
+  color: red;
+}
+.header {
+  height: 100px;
+  text-align: center;
+  background-color: #000;
+}
+
+.logo {
+  height: 100%;
+}
+
+.deco {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  background: url(dist/508ec1e935534309c239e3607991242f.jpg) no-repeat 50% 50% / 100% auto;
+  filter: grayscale(0);
+}
+
+/*# sourceMappingURL=styles.css.map*/

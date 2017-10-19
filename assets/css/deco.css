@@ -1,0 +1,52 @@
+.body--deco {
+  padding: 20px;
+  /*background: url(../img/deco-hd.jpg) no-repeat 50% 50% / 100% auto;*/
+  position: relative;
+}
+
+.deco__cat {
+  width: calc(25% - 8px);
+  height: 35vw;
+  /*background: url(../img/spring-blur80.jpg) no-repeat 50% 50% / 100vw;*/
+  display: inline-block;
+  margin: 4px;
+  border: 8px solid #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.deco__cat__overlay {
+  width: 100%;
+  height: 100%;
+  /*background: url(../img/tree.jpg) no-repeat 50% 50% / cover;*/
+  background: url(../img/spring-blur80.jpg) no-repeat 50% 50% / 100vw;
+}
+
+.deco__cat:nth-child(2) .deco__cat__overlay {
+  background-position-x: calc();
+}
+
+/*
+.leaf {
+  background: url(../img/leaf.png) no-repeat 50% 50% / 100% auto;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 40px;
+  height: 40px;
+}
+
+.leaf__txt {
+  width: 70px;
+  background-color: #86ca25;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: all .3s;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.leaf:hover .leaf__txt {
+  transform: scaleX(1);
+}
+*/
