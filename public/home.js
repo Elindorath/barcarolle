@@ -23,7 +23,9 @@ home.view = function view() {
         }, [
           m('.nav-main__txt', 'Des objets et leur histoire ...'),
         ]),
-        m('.nav-sub.nav-sub--tea', [
+        m('.nav-sub.nav-sub--tea', {
+          onclick: m.route.set.bind(m.route, '/tea', null),
+        }, [
           m('.nav-sub__txt', 'Le thé autrement ...'),
         ]),
         m('.nav-sub.nav-sub--library', [

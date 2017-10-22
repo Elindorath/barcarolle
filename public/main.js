@@ -2,6 +2,7 @@ var m = require('mithril');
 var home = require('./home');
 var deco = require('./deco');
 var decoItem = require('./deco-list');
+var tea = require('./tea');
 
 require('./assets/css/main.css');
 require('./assets/css/fonts.css');
@@ -14,4 +15,5 @@ m.route(document.body, '/', {
   '/'        : home,
   '/deco'    : deco,
   '/deco/:id': decoItem,
+  '/tea'     : tea,
 });
